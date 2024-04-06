@@ -11,7 +11,7 @@
                                 <div class="max-w-xs px-2.5 lg:max-w-none"><img alt="" loading="lazy" width="800" height="800" decoding="async" class="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800" style="color:transparent" sizes="(min-width: 1024px) 32rem, 20rem" src="/img/coops.jpeg"></div>
                             </div>
                             <div class="lg:order-first lg:row-span-2">
-                                <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">I’m Bob. I live on the base Blockchain. We are all Bob.</h1>
+                                <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">coops coin is a cryptocurrency fan club</h1>
                                 <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
                                     <p>Details coming soon..</p>
                                 </div>
