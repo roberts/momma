@@ -1145,7 +1145,7 @@ contract coops is ERC20, Ownable {
         address(0x000000000000000000000000000000000000dEaD);
 
     string exchangeLink = "https://app.uniswap.or/swap";
-    string websiteLink = "https://DrewRoberts.com";
+    string websiteLink = "https://coopscoin.com";
 
     address public communityWallet;
     address public marketingWallet;
