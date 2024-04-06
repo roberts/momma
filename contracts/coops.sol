@@ -1,13 +1,20 @@
 /**
  *
  *
-   Contract features:
+   coops coin
+   $COOPS on base
+   https://coopscoin.com
+   https://t.me/coopscoin
+   https://x.com/coopscoin
+   https://youtube.com/@coopscoin
+
+   contract features:
    100,000,000 tokens
    3% buy tax in ETH sent to community, marketing & developer
    16% sell tax in ETH sent to community, marketing, & developer
-   Option to reduce taxes to 3/3
-   Option to remove taxes
-   Removable anti-whale restrictions for max transaction & max wallet
+   option to reduce taxes to 3/3
+   option to remove taxes
+   removable anti-whale restrictions for max transaction & max wallet
  */
 
 // SPDX-License-Identifier: MIT
