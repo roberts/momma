@@ -1,6 +1,6 @@
-# TickerIsBob.com
+# coops coin
 
-Repository for Official $BOB on Solana website code - [TickerIsBob.com](https://TickerIsBob.com)
+Repository for official $COOPS on base website code - [coopscoin.com](https://coopscoin.com)
 
 ## Installation
 
