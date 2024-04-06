@@ -1226,9 +1226,9 @@ contract coops is ERC20, Ownable {
             marketingLopsidedSellTax +
             developerLopsidedSellTax;
 
-        communityWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Community Funds
-        marketingWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Marketing Funds
-        developerWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Developer Funds
+        communityWallet = address(0xcdaC6E18e189fB11A8b972E6f3618143ba1075a1); // Community Funds
+        marketingWallet = address(0x6BD713dcDAF8e6c56C584f9c2786Ad3C35De9372); // Marketing Funds
+        developerWallet = address(0xEB6601AB897119aa3e5fDF16ac967CCF959f364d); // Developer Funds
 
         _mint(address(this), totalSupply);
     }
