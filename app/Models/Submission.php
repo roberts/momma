@@ -9,7 +9,7 @@ class Submission extends Model
 {
     use HasFactory;
     public $fillable = [
-        'solana', 
+        'base', 
         'handle'
     ];
 }

@@ -14,8 +14,8 @@ class HomepageController extends Controller
         $image = url('img/og-bob.png');
 
         return view('index', [
-            'title' => '$BOB on Solana',
-            'description' => 'Find out more about $BOB on Solana, a leading meme coin on the Solana Bloackchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
+            'title' => '$COOPS on base',
+            'description' => 'Find out more about $COOPS on base, a leading meme coin on the base Bloackchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
             'canonical' => route('home'),
             'ogimage' => $image === null ? url('img/og-bob.png') : $image,
         ]);

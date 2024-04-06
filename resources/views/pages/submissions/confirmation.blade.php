@@ -14,8 +14,8 @@
                                 <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">"Thank you" -Bob</h1>
                                 <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
                                     <p>Your submission has been received by Bob!</p>
-                                    <p>{{ $solana }}</p>
-                                    <p>Bob will take your Solana address and deliver a surprise to you when you least expect it. Be on the lookout for something in the coming days..</p>
+                                    <p>{{ $base }}</p>
+                                    <p>Bob will take your base address and deliver a surprise to you when you least expect it. Be on the lookout for something in the coming days..</p>
                                     <p>Bob also has your X handle (<a class="text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500" href="{{ $xlink }}">{{ $handle }}</a>) & will reach out to you there in due time. In the meanwhile, continue to be like Bob!</p>
                                 </div>
                             </div>

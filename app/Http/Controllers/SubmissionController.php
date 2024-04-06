@@ -21,7 +21,7 @@ class SubmissionController extends Controller
     {
         // Form validation
         $this->validate($request, [
-        'solana'  => 'required',
+        'base'  => 'required',
         'handle' => 'required'
         ]);
 
@@ -29,7 +29,7 @@ class SubmissionController extends Controller
 
         //  Store submission in database
         Submission::create($request->all());
-        return redirect(route('confirmation'))->with( ['solana' => $request->solana, 'handle' => $request->handle] );
+        return redirect(route('confirmation'))->with( ['base' => $request->base, 'handle' => $request->handle] );
     }
 
     public function confirmation(Request $request)
@@ -38,11 +38,11 @@ class SubmissionController extends Controller
         $image = url('img/og-bob.png');
 
         return view('pages.submissions.confirmation', [
-            'title' => '$BOB Submission',
-            'description' => 'Find out more about $BOB on Solana, a leading meme coin on the Solana Blockchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
+            'title' => '$COOPS Submission',
+            'description' => 'Find out more about $COOPS on base, a leading meme coin on the base Blockchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
             'canonical' => route('confirmation'),
             'ogimage' => url('img/og-bob.png'),
-            'solana' => session('solana') === null ? 'Solana-Address-Here' : session('solana'),
+            'base' => session('base') === null ? 'base-Address-Here' : session('base'),
             'handle' => session('handle') === null ? '@DrewRoberts' : '@'.session('handle'),
             'xlink' => session('handle') === null ? 'https://x.com/DrewRoberts' : 'https://x.com/'.session('handle'),
         ]);

@@ -14,8 +14,8 @@ class AboutController extends Controller
         $image = url('img/og-bob.png');
 
         return view('pages.about', [
-            'title' => 'About $BOB on Solana',
-            'description' => 'Find out more about $BOB on Solana, a leading meme coin on the Solana Blockchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
+            'title' => 'About $COOPS on base',
+            'description' => 'Find out more about $COOPS on base, a leading meme coin on the base Blockchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
             'canonical' => route('about'),
             'ogimage' => $image === null ? url('img/og-bob.png') : $image,
         ]);

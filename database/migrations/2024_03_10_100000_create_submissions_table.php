@@ -10,7 +10,7 @@ class CreateSubmissionsTable extends Migration
     {
         Schema::create('submissions', function (Blueprint $table) {
             $table->id();
-            $table->string('solana')->unique()->index(); // Solana Address
+            $table->string('base')->unique()->index(); // base Address
             $table->string('handle')->index(); // X Handle
             $table->foreignIdFor(app('user'), 'creator_id')->nullable();
             $table->foreignIdFor(app('user'), 'updater_id')->nullable();
