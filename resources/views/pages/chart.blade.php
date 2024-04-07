@@ -7,7 +7,7 @@
                 <div class="relative px-4 sm:px-8 lg:px-12">
                     <div class="mx-auto max-w-2xl lg:max-w-5xl">
                         <header>
-                            <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">Robert Chart</h1>
+                            <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">coops coin chart</h1>
                             <div class="mt-6 flex gap-6">
                                 <a class="group -m-1 p-1" aria-label="Follow $COOPS on X" href="https://x.me/coopscoin">
                                     <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300">
