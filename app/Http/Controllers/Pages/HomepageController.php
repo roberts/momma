@@ -15,7 +15,7 @@ class HomepageController extends Controller
 
         return view('index', [
             'title' => '$COOPS on base',
-            'description' => 'Find out more about $COOPS on base, a leading meme coin on the base Bloackchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
+            'description' => 'Find out more about $COOPS on base, a meme coin about a jewish girl who will not pay her dev or marketing team..',
             'canonical' => route('home'),
             'ogimage' => $image === null ? url('img/og-coops.png') : $image,
         ]);

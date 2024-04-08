@@ -15,7 +15,7 @@ class ChartController extends Controller
 
         return view('pages.chart', [
             'title' => 'Chart for $COOPS on base',
-            'description' => 'View the DexScreener chart for $COOPS on base. Look nowhere else for live updates on Robert trading activity..',
+            'description' => 'View the DexScreener chart for $COOPS on base. This is a meme coin about a jewish girl named coops who will not pay people..',
             'canonical' => route('chart'),
             'ogimage' => $image === null ? url('img/og-coops.png') : $image,
         ]);

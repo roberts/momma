@@ -17,7 +17,7 @@ class MemesController extends Controller
 
         return view('pages.memes', [
             'title' => 'Memes for $COOPS on base',
-            'description' => 'Memes for $COOPS on base are created by the Bob Community and available freely to share on the interwebs to promote Bob & Robert and all of us because we are all Bob.',
+            'description' => 'Memes for $COOPS on base are created by the coops coin community to laugh at a jewish girl who will not pay her dev or marketing team..',
             'canonical' => route('memes'),
             'ogimage' => $image === null ? url('img/og-coops.png') : $image,
             'memeTypes' => MemeType::all(),
