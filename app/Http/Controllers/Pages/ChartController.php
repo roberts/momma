@@ -11,13 +11,13 @@ class ChartController extends Controller
     public function __invoke(Request $request)
     {
         // $image = Image::find(43)->url;
-        $image = url('img/og-bob.png');
+        $image = url('img/og-coops.png');
 
         return view('pages.chart', [
             'title' => 'Chart for $COOPS on base',
             'description' => 'View the DexScreener chart for $COOPS on base. Look nowhere else for live updates on Robert trading activity..',
             'canonical' => route('chart'),
-            'ogimage' => $image === null ? url('img/og-bob.png') : $image,
+            'ogimage' => $image === null ? url('img/og-coops.png') : $image,
         ]);
     }
 }

@@ -13,13 +13,13 @@ class MemesController extends Controller
     public function index()
     {
         // $image = Image::find(43)->url;
-        $image = url('img/og-bob.png');
+        $image = url('img/og-coops.png');
 
         return view('pages.memes', [
             'title' => 'Memes for $COOPS on base',
             'description' => 'Memes for $COOPS on base are created by the Bob Community and available freely to share on the interwebs to promote Bob & Robert and all of us because we are all Bob.',
             'canonical' => route('memes'),
-            'ogimage' => $image === null ? url('img/og-bob.png') : $image,
+            'ogimage' => $image === null ? url('img/og-coops.png') : $image,
             'memeTypes' => MemeType::all(),
         ]);
     }
@@ -37,7 +37,7 @@ class MemesController extends Controller
     public function show(MemeType $memeType, Meme $meme)
     {
         // $image = Image::find(43)->url;
-        $image = url('img/og-bob.png');
+        $image = url('img/og-coops.png');
 
         return view('pages.meme', [
             'meme' => $meme,
@@ -47,7 +47,7 @@ class MemesController extends Controller
             'image_name' => $meme->image->filename . $meme->meme_image_type,
             'content' => $meme->content,
             'canonical' => env('APP_URL') . $meme->getPathAttribute(),
-            'ogimage' => env('APP_URL') . '/img/og-bob.png',
+            'ogimage' => env('APP_URL') . '/img/og-coops.png',
         ]);
     }
 

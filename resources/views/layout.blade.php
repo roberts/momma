@@ -29,7 +29,7 @@
     <meta property="og:description" content="{{ $description ?? 'I am Bob. You are Bob. We are all perfectly Bob. We exist on the base Blockchain. Ticker is $COOPS.' }}" />
     <meta property="og:url" content="{{ $canonical ?? 'https://coopscoin.com' }}" />
     <meta property="og:site_name" content="$COOPS on base" />
-    <meta property="og:image" content="{{ $ogimage ?? 'https://coopscoin.com/img/og-bob.png' }}" />
+    <meta property="og:image" content="{{ $ogimage ?? 'https://coopscoin.com/img/og-coops.png' }}" />
     <meta property="article:publisher" content="https://www.facebook.com/drewroberts" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="{{ $ogdescription ?? 'I am Bob. You are Bob. We are all perfectly Bob. We exist on the base Blockchain. Ticker is $COOPS.' }}" />

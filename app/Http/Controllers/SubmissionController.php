@@ -35,13 +35,13 @@ class SubmissionController extends Controller
     public function confirmation(Request $request)
     {
         // $image = Image::find(43)->url;
-        $image = url('img/og-bob.png');
+        $image = url('img/og-coops.png');
 
         return view('pages.submissions.confirmation', [
             'title' => '$COOPS Submission',
             'description' => 'Find out more about $COOPS on base, a leading meme coin on the base Blockchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
             'canonical' => route('confirmation'),
-            'ogimage' => url('img/og-bob.png'),
+            'ogimage' => url('img/og-coops.png'),
             'base' => session('base') === null ? 'base-Address-Here' : session('base'),
             'handle' => session('handle') === null ? '@DrewRoberts' : '@'.session('handle'),
             'xlink' => session('handle') === null ? 'https://x.com/DrewRoberts' : 'https://x.com/'.session('handle'),
