@@ -15,7 +15,7 @@ class AboutController extends Controller
 
         return view('pages.about', [
             'title' => 'About $COOPS on base',
-            'description' => 'Find out more about $COOPS on base, a leading meme coin on the base Blockchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
+            'description' => '$COOPS on base is a meme coin about a jewish girl named coops who will not pay her dev & marketing team..',
             'canonical' => route('about'),
             'ogimage' => $image === null ? url('img/og-coops.png') : $image,
         ]);

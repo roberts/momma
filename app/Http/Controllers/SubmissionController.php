@@ -39,7 +39,7 @@ class SubmissionController extends Controller
 
         return view('pages.submissions.confirmation', [
             'title' => '$COOPS Submission',
-            'description' => 'Find out more about $COOPS on base, a leading meme coin on the base Blockchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
+            'description' => '$COOPS on base is a meme coin about a jewish girl named coops who will not pay her dev & marketing team..',
             'canonical' => route('confirmation'),
             'ogimage' => url('img/og-coops.png'),
             'base' => session('base') === null ? 'base-Address-Here' : session('base'),
