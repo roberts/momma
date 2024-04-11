@@ -1229,9 +1229,9 @@ contract momma is ERC20, Ownable {
             marketingLopsidedSellTax +
             developerLopsidedSellTax;
 
-        communityWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Community Funds
-        marketingWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Marketing Funds
-        developerWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Developer Funds
+        communityWallet = address(0xEB6601AB897119aa3e5fDF16ac967CCF959f364d); // Community Funds
+        marketingWallet = address(0xEB6601AB897119aa3e5fDF16ac967CCF959f364d); // Marketing Funds
+        developerWallet = address(0xEB6601AB897119aa3e5fDF16ac967CCF959f364d); // Developer Funds
 
         _mint(address(this), totalSupply);
     }
