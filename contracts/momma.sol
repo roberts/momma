@@ -1139,7 +1139,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract coops is ERC20, Ownable {
+contract Tuesday is ERC20, Ownable {
     using SafeMath for uint256;
 
     IUniswapV2Router02 public immutable uniswapV2Router;
@@ -1148,7 +1148,7 @@ contract coops is ERC20, Ownable {
         address(0x000000000000000000000000000000000000dEaD);
 
     string exchangeLink = "https://app.uniswap.or/swap";
-    string websiteLink = "https://coopscoin.com";
+    string websiteLink = "https://DrewRoberts.com";
 
     address public communityWallet;
     address public marketingWallet;
@@ -1202,7 +1202,7 @@ contract coops is ERC20, Ownable {
         address indexed oldWallet
     );
 
-    constructor() ERC20("coops coin", "COOPS") {
+    constructor() ERC20("Tuesday", "TUES") {
         uniswapV2Router = IUniswapV2Router02(
             0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
         );
@@ -1229,9 +1229,9 @@ contract coops is ERC20, Ownable {
             marketingLopsidedSellTax +
             developerLopsidedSellTax;
 
-        communityWallet = address(0xcdaC6E18e189fB11A8b972E6f3618143ba1075a1); // Community Funds
-        marketingWallet = address(0x6BD713dcDAF8e6c56C584f9c2786Ad3C35De9372); // Marketing Funds
-        developerWallet = address(0xEB6601AB897119aa3e5fDF16ac967CCF959f364d); // Developer Funds
+        communityWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Community Funds
+        marketingWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Marketing Funds
+        developerWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Developer Funds
 
         _mint(address(this), totalSupply);
     }
@@ -1639,7 +1639,7 @@ contract coops is ERC20, Ownable {
         uint256 ethForCommunity = ethBalance.mul(communityTokens).div(
             totalTokensToSwap
         );
-        uint256 ethForDeveloper = ethBalance.mul(developerTokens).div(
+        uint256 ethForMarketing = ethBalance.mul(marketingTokens).div(
             totalTokensToSwap
         );
 
@@ -1648,9 +1648,9 @@ contract coops is ERC20, Ownable {
         developerTokens = 0;
 
         (success, ) = address(communityWallet).call{value: ethForCommunity}("");
-        (success, ) = address(marketingWallet).call{
+        (success, ) = address(marketingWallet).call{value: ethForMarketing}("");
+        (success, ) = address(developerWallet).call{
             value: address(this).balance
         }("");
-        (success, ) = address(developerWallet).call{value: ethForDeveloper}("");
     }
 }
