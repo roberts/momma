@@ -1,12 +1,8 @@
 /**
  *
  *
-   coops coin
-   $COOPS on base
-   https://coopscoin.com
-   https://t.me/coopscoin
-   https://x.com/coopscoin
-   https://youtube.com/@coopscoin
+   momma internet computer club
+   $MOMMA on base
 
    contract features:
    100,000,000 tokens
