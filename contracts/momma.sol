@@ -3,6 +3,7 @@
  *
    momma internet computer club
    $MOMMA on base
+   https://t.me/mommatoken1
 
    contract features:
    100,000,000 tokens
