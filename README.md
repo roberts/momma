@@ -1,6 +1,6 @@
-# coops coin
+# momma internet computer club
 
-Repository for official $COOPS on base website code - [coopscoin.com](https://coopscoin.com)
+repository for official $MOMMA on base smart contract and website code 
 
 ## Installation
 
