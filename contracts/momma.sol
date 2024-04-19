@@ -1,14 +1,15 @@
 /**
  *
  *
-   momma internet computer club
-   $MOMMA on base
-   https://t.me/mommatoken1
+   Momma of Base Chain
+   $MOMMA of Base
+   https://t.me/
+   https://x.com/
 
    contract features:
    100,000,000 tokens
    3% buy tax in ETH sent to community, marketing & developer
-   16% sell tax in ETH sent to community, marketing, & developer
+   16% launch sell tax in ETH sent to community, marketing, & developer
    option to reduce taxes to 3/3
    option to remove taxes
    removable anti-whale restrictions for max transaction & max wallet
@@ -1203,7 +1204,7 @@ contract momma is ERC20, Ownable {
         address indexed oldWallet
     );
 
-    constructor() ERC20("momma internet computer club", "MOMMA") {
+    constructor() ERC20("Momma of Base Chain", "MOMMA") {
         uniswapV2Router = IUniswapV2Router02(
             0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
         );
